@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>SynergyTech</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='style/myhome.css')}}">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Revolutionize Your Farming Decisions with Data-Driven Crop Selection</h1>
+      <p style="color: black;">Harness the power of machine learning to optimize your farm's productivity and profitability
+
+         Get tailored crop suggestions based on your soil, climate, and goals
+
+       </p>
+      <br>
+      <h2 style="color: black;"> Say goodbye to guesswork and hello to data-backed crop recommendations</h2>
+      <br>
+      <h3 style="color: black;">Click following button for Crop recommandation</h3>
+    </main>
+     <form action="/Predict">
+      <input type="submit" id="Predict" name="Predict" action="/Predict" value="Predict">
+     </form>
+  </body>
+</html>
